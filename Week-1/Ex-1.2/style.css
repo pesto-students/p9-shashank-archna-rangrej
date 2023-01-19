@@ -1,0 +1,88 @@
+body {
+    font-family: Lato;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #f2f2f2;
+    flex: 0 0 40px;
+}
+
+header {
+    display: flex;
+    background: #4e4e4e;
+    padding: 40px;
+}
+
+#header-content {
+    color: #ffffff;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+section {
+    flex: 1;
+}
+
+.music-content i {
+    margin-left: 20px;
+}
+
+.music-content i:first-child {
+    margin-left: 0px;
+}
+
+.music-list li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.music-list li p {
+    flex: 0 0 25%;
+}
+
+.music-list li p > span {
+    border: 1px solid #000000;
+    font-size: 0.6rem;
+    color: blue;
+}
+
+li:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background: blue;
+    color: #ffffff;
+}
+footer img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.current-track {
+    display: flex;
+    width: 50%;
+}
+.track-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
