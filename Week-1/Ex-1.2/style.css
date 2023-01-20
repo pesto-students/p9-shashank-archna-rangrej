@@ -57,7 +57,7 @@ section {
 .music-list li p > span {
     border: 1px solid #000000;
     font-size: 0.6rem;
-    color: blue;
+    color: #0000ff;
 }
 
 li:nth-child(2n) {
@@ -67,7 +67,7 @@ li:nth-child(2n) {
 footer {
     display: flex;
     flex-direction: row;
-    background: blue;
+    background: #0000ff;
     color: #ffffff;
 }
 footer img {
