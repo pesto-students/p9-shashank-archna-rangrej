@@ -1,0 +1,36 @@
+header {
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.left-content img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.left-content article {
+    margin-bottom: var(--marginBottom);
+}
+.right-content article {
+    margin-bottom: var(--marginBottom);
+}
+
+.submit-btn { 
+    background-color: #0000ff;
+}
+
+.submit-btn:hover { 
+    background-color: #00ffff;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+    .left-content img {
+        margin-bottom: var(--marginBottom);
+    }
+}
