@@ -1,3 +1,10 @@
+:root {
+    --red: #ff0000;
+    --yellow: #ffff00;
+    --green: #00ff00;
+    --blue: #0000ff;
+}
+
 #main {
     display: flex;
     justify-content: center;
@@ -21,16 +28,16 @@
 }
 
 #top-left {
-    background-color: #ff0000;
+    background-color: var(--red);
 }
 #top-right {
-    background-color: #ffff00;
+    background-color: var(--yellow);
 }
 #bottom-left {
-    background-color: #0000ff;
+    background-color: var(--blue);
 }
 #bottom-right {
-    background-color: #00ff00;
+    background-color: var(--green);
 }
 
 #flex-div:hover #top-left, div#flex-div:hover #bottom-left {

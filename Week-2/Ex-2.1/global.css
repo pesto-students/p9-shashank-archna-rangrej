@@ -1,3 +1,10 @@
 :root {
     --marginBottom: 20px;
+    --fontSize: 16px;
+    --fontFamily: '';
+    --headerTextColor: #10204dd3;
+    --blue: #0000ff;
+    --lightBlue: #8b8bd3;
+    --white: #ffffff;
+    --fontFamily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
