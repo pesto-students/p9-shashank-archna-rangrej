@@ -1,0 +1,51 @@
+:root {
+    --red: #ff0000;
+    --yellow: #ffff00;
+    --green: #00ff00;
+    --blue: #0000ff;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    position: relative;
+}
+#flex-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    position: absolute;
+}
+
+#flex-div > div {
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+
+#top-left {
+    background-color: var(--red);
+}
+#top-right {
+    background-color: var(--yellow);
+}
+#bottom-left {
+    background-color: var(--blue);
+}
+#bottom-right {
+    background-color: var(--green);
+}
+
+#flex-div:hover #top-left, div#flex-div:hover #bottom-left {
+    transform:rotate(-90deg);
+    transform-origin: left bottom;
+}
+
+#flex-div:hover #top-right, div#flex-div:hover #bottom-right {
+    transform:rotate(90deg);
+    transform-origin: right bottom;
+}
