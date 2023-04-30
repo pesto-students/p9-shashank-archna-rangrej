@@ -16,15 +16,15 @@ const Content = () => {
     height: '40px',
     width: '100px',
     borderRadius: '20px',
-    background: '#228b22',
-    color: '#ffffff',
+    background: 'var(--green)',
+    color: 'var(--white)',
     fontWeight: 800,
     fontSize: '18px',
   };
 
   const errorStyle = {
     marginLeft: '-100px',
-    color: '#ed143d',
+    color: 'var(--red)',
     fontSize: '18px',
   };
 

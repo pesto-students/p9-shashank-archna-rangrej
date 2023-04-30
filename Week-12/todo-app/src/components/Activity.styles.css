@@ -24,8 +24,8 @@ td:last-child {
     height: 30px;
     width: 100px;
     border-radius: 15px;
-    background: #ed143d;
-    color: #ffffff;
+    background: var(--red);
+    color: var(--white);
     font-weight: bold;
     font-size: 15px;
 }
