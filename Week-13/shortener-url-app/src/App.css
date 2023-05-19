@@ -1,0 +1,15 @@
+.App {
+  padding: 1rem 10rem;
+}
+
+.btn-blue {
+  background: #2acfcf;
+  padding: 0.5rem 1rem;
+  color: #ffffff !important;
+  border-radius: 100px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
