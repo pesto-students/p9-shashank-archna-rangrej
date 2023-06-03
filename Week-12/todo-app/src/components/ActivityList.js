@@ -4,7 +4,7 @@ import './Activity.styles.css';
 const ActivityList = ({ list, setList }) => {
 
   const handleChange = (e) => {
-      let data = list.filter((item, index) => {
+      const data = list.filter((item, index) => {
         if (index.toString() === e.target.value){
             item.isDone = !item.isDone;
         }
@@ -15,7 +15,7 @@ const ActivityList = ({ list, setList }) => {
   }
 
   const handleDelete = (index) => {
-    let data = list.filter((item, i) => index !== i);
+    const data = list.filter((item, i) => index !== i);
     setList(data);
   }
 
