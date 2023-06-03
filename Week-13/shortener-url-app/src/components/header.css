@@ -20,14 +20,6 @@ nav {
     margin-right: 20px;
     font-size: 10px;
     font-family: 'sans-serif';
-    color: #9d9aa7;
-    font-weight: 700;
-}
-
-.left-container {
-
-}
-
-.right-container {
-
+    color: var(--lightGrey);
+    font-weight: var(--fontWeight);
 }

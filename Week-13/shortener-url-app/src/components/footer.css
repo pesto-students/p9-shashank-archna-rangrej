@@ -1,5 +1,5 @@
 .footer {
-    background-color: #292531;
+    background-color: var(--darkViolet);
     color: #f4f6f8;
     margin-top: 20px;
 }
@@ -27,7 +27,7 @@
 
 .footer-heading {
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: var(--fontWeight);
     margin-bottom: 2.5rem;
 }
 
