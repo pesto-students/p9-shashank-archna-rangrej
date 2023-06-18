@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #35323e;
+    margin-right: 3rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container a {
+    margin-right: 20px;
+    font-size: 10px;
+    font-family: 'sans-serif';
+    color: var(--lightGrey);
+    font-weight: var(--fontWeight);
+}

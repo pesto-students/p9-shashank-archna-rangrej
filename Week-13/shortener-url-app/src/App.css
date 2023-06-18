@@ -1,0 +1,26 @@
+:root {
+  --white: #ffffff;
+  --blue: #2acfcf;
+  --darkGrey: #333333;
+  --lightGrey: #9d9aa7;
+  --violet: #3b3054;
+  --cream: #e0dced;
+  --darkViolet: #292531;
+  --fontWeight: 700;
+}
+
+.App {
+  padding: 1rem 10rem;
+}
+
+.btn-blue {
+  background: var(--blue);
+  padding: 0.5rem 1rem;
+  color: var(--white) !important;
+  border-radius: 100px;
+  font-weight: var(--fontWeight);
+}
+
+a {
+  text-decoration: none;
+}

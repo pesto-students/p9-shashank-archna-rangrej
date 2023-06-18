@@ -1,0 +1,46 @@
+.footer {
+    background-color: var(--darkViolet);
+    color: #f4f6f8;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: start;
+    width: 100%;
+}
+
+.footer-container {
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-title {
+    font-size: 2rem;
+}
+
+.footer-nav {
+    flex-direction: column;
+}
+
+.footer-heading {
+    font-size: 1.2rem;
+    font-weight: var(--fontWeight);
+    margin-bottom: 2.5rem;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer-items {
+    margin-bottom: 1rem;
+}
+
+.footer-links:visited {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #bfbfbf;
+}
